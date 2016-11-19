@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br />Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'whileLOOP Portal';
+	public $sitename = 'Luminance Stoer';
 	public $editor = 'tinymce';
 	public $captcha = 'recaptcha';
 	public $list_limit = '20';
@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'prabushitha';
-	public $password = '123';
-	public $db = 'programmingiv';
+	public $host = 'us-cdbr-azure-central-a.cloudapp.net';
+	public $user = 'b501c7f1c7502c';
+	public $password = '6d24e056';
+	public $db = 'cms';
 	public $dbprefix = 'joomla_';
 	public $live_site = '';
 	public $secret = 'oJK9bLtIPLLYr9EH';
@@ -32,7 +32,7 @@ class JConfig {
 	public $mailonline = '1';
 	public $mailer = 'mail';
 	public $mailfrom = 'prabushitha@gmail.com';
-	public $fromname = 'Prabushitha Portal';
+	public $fromname = 'Sajitha Portal';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -56,8 +56,8 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = 'C:\\wamp\\www\\programming4\\labsheet5\\joomla\\administrator/logs';
-	public $tmp_path = 'C:\\wamp\\www\\programming4\\labsheet5\\joomla/tmp';
+	public $log_path = 'http://sajithacms078.azurewebsites.net/administrator/logs';
+	public $tmp_path = 'http://sajithacms078.azurewebsites.net/joomla/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';
